@@ -70,6 +70,7 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -92,12 +93,6 @@ header {
   color: #404bbf;
 }
 
-.header-link {
-  color: #2e2f42;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
 .header-address a:hover,
 .header-address a:focus {
@@ -107,8 +102,6 @@ header {
 .header-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav-list {
@@ -116,10 +109,18 @@ header {
   gap: 40px;
 }
 
-.header-address {
-  font-style: normal;
+.header-link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-list {
