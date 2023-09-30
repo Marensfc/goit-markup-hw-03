@@ -202,6 +202,7 @@ header {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -211,10 +212,22 @@ header {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-name-text {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-name-title {
@@ -223,6 +236,7 @@ header {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-text {
