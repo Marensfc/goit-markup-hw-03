@@ -107,6 +107,8 @@ header {
 .header-nav-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link {
@@ -115,8 +117,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-address {
@@ -261,7 +261,6 @@ header {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border-top: none;
 }
 
 .portfolio-list li {
@@ -291,6 +290,7 @@ header {
 .box-item-title-text {
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
+  border-top: none;
 }
 
 .portfolio-item-text {
